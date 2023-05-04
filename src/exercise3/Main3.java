@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Main3 {
 
 	public static void main(String[] args) {
-		qFinder("AIUTO:");
-//cercaQ();
+//		qFinder("AIUTO");
+cercaQ();
 	}
 	
 	public static void qFinder (String stringa) {

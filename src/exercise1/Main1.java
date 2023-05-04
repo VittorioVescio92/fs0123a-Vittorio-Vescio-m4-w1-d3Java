@@ -13,12 +13,12 @@ public class Main1 {
 		return stringa.length() % 2 == 0? true : false;
 				}
 	static boolean annoBisestile (int year) {
-		if(year % 4 == 0) {
-			return true;
-		} else if (year % 100 == 0 && year % 400 == 0){
-			return true;
-      }else {
-    	  return false;
-      }
+		if (year % 4 == 0 && year % 100 != 0) {
+            return true;
+        } else if (year % 400 == 0) {
+            return true;
+        } else {
+            return false;
+        }
 	}
 }

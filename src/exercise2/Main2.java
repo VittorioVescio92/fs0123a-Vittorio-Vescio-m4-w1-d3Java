@@ -24,7 +24,7 @@ public class Main2 {
 			break;
 		}
 		}else {
-			System.out.println("non è compreso tra 0 e 3");
+			System.out.println("il numero non è compreso tra 0 e 3");
 		}
 	}
 
